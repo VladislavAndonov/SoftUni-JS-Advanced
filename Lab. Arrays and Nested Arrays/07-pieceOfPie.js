@@ -3,7 +3,7 @@ function pieceOfPie(arr, str1, str2) {
   let endIdx = arr.indexOf(str2);
 
   let newArr = arr.slice(startIdx, endIdx + 1);
-  console.log(newArr);
+  return newArr;
 }
 // pieceOfPie(
 //   [

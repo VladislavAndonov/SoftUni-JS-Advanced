@@ -4,6 +4,6 @@ function numSequence(n, k) {
     let sum = arr.slice(-k).reduce((a, b) => a + b, 0);
     arr.push(sum);
   }
-  console.log(arr);
+  return arr;
 }
 numSequence(6, 3);
